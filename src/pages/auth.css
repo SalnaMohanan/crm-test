@@ -1,0 +1,10 @@
+.login-page {
+    background: url('https://static.vecteezy.com/system/resources/previews/012/410/341/non_2x/premium-security-cyber-digital-concept-abstract-technology-background-protect-system-innovation-for-business-illustration-vector.jpg') no-repeat center center / cover;
+    width: 100vw;
+    /* Ensures full viewport width */
+    height: 100vh;
+    /* Ensures full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

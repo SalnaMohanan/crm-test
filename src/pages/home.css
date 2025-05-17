@@ -1,0 +1,49 @@
+.home-page {
+    background: url('https://linkpoint360.com/wp-content/uploads/2021/07/11-benefits-of-crm-integration.png') no-repeat center center / cover;
+    height: 100vh;
+    /* Ensures full viewport height */
+    display: flex;
+    flex-direction: column;
+    /* Aligns text and button vertically */
+    justify-content: center;
+    /* Centers content vertically */
+    align-items: center;
+    /* Centers content horizontally */
+    text-align: center;
+    /* Ensures text is centered */
+    padding: 20px;
+}
+
+.para {
+    font-size: 1.8rem;
+    /* Increases font size */
+    font-weight: bold;
+    /* Makes text bold */
+    color: whitesmoke;
+    /* Adjust color to stand out on the background */
+    max-width: 800px;
+    /* Prevents text from being too wide */
+    margin-bottom: 150px;
+}
+
+.homebtn {
+    font-size: 1.2rem;
+    /* Increases button text size */
+    padding: 12px 24px;
+    /* Adds spacing for better appearance */
+    border: none;
+    border-radius: 8px;
+    /* Rounds the button edges */
+    background-color: rgba(0, 0, 0, 0.856);
+    ;
+    /* Blue background */
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.homebtn:hover {
+    background-color: rgba(0, 0, 0, 0.493);
+    ;
+    /* Darker shade on hover */
+}

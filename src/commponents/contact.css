@@ -1,0 +1,19 @@
+/* Set background image for the whole page */
+
+.contact-page {
+    background: url('https://cdn.pixabay.com/photo/2015/01/25/21/02/phone-612061_640.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Semi-transparent card background */
+
+.bg-light-transparent {
+    background: rgba(255, 255, 255, 0.85);
+    /* Light transparency */
+    border-radius: 10px;
+    padding: 20px;
+}
